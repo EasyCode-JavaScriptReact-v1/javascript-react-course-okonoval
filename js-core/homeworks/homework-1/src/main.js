@@ -1,3 +1,4 @@
+
 const phoneBook = {
     photo: NaN,
     name: 'Oleg',
@@ -18,3 +19,4 @@ const phoneBook = {
     isPremium: false
 };
 console.log(phoneBook);
+
