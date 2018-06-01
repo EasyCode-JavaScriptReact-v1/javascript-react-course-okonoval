@@ -17,5 +17,4 @@ const phoneBook = {
     },
     isPremium: false
 };
-
 console.log(phoneBook);
