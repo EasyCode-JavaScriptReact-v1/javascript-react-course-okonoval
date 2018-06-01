@@ -1,4 +1,5 @@
 const phoneBook = {
+    photo: NaN,
     name: 'Oleg',
     lastName: 'Konoval ',
     phones:[
