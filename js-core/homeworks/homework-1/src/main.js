@@ -12,8 +12,8 @@ const phoneBook = {
     },
     address:{
         street:'Washington',
-        buldingNum: '19',
-        aptNum: 'null'
+        buildingNum: '19',
+        aptNum: null
     },
     isPremium: false
 };
