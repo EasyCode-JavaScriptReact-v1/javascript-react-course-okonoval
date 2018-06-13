@@ -73,8 +73,7 @@ displayCategories(categoriesVar);
 
 function numbersBetween(a, b) {
     let myArray = [];
-    let i;
-    for( i = a; i <= b; i++ ){
+    for(let i = a; i <= b; i++ ){
         myArray.push(i)
     }
     console.log(myArray);
@@ -98,28 +97,20 @@ numbersBetween(10, 12);
 // 1. FizzBuzz 3, 5, 3 && % 5
 
 
-function fizzBuzz(num) {
-    let result;
-    if(num % 3  == 0 && num % 5 == 0){
-        result = 'FizzBuzz';
+function FizzBuzz(number) {
+    let str = '';
+    if (!(number % 3)) {
+        str += 'Fizz';
     }
-    else if(num % 3  == 0){
-        result = 'fizz';
+    if (!(number % 5)) {
+        str += 'Buzz';
     }
-    else if(num % 5  == 0){
-        result = 'Buzz';
-    }
-    else{
-        result = num;
-    }
-    console.log(result);
-    return result;
-
+    return str ? str : number;
 }
+
 function fizzBuzz100(numberMin , numberMax) {
-    let i;
-    for (i = numberMin; i <= numberMax; i++){
-        fizzBuzz(i);
+    for (let i = numberMin; i <= numberMax; i++){
+        console.log(FizzBuzz(i));
     }
 }
 fizzBuzz100(50,90);
