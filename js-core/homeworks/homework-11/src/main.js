@@ -26,7 +26,7 @@ let admin = {
     adminEmail: 'adminMail@gmail.com'
 }
 
-let quest = {d}
+let quest = {}
 let dataBase = {
     password: 'base',
 }
